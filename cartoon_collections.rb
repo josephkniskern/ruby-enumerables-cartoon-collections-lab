@@ -2,7 +2,7 @@ def roll_call_dwarves(array)
   array.each_with_index do |ele, idx|
     dwarf = ele[idx]
     num = idx 
-    puts idx + "." + dwarf
+    puts idx.to_s + "." + dwarf
   end
     
 end
